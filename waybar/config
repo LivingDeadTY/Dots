@@ -1,0 +1,72 @@
+{
+	"layer": "top",
+	"position": "top",
+	"width": 1920,
+	"spacing": 10,
+	"mod": "dock",
+
+	"modules-left": ["clock", "pulseaudio", "custom/media"],
+	"modules-center": ["wlr/workspaces"],
+	"modules-right": ["tray", "network", "battery"],
+
+	// Modules Configuration
+
+	"clock": {
+		"timezone": "America/New_York",
+		"format": "{:%H:%M}",
+		 },
+	
+	"pulseaudio": {
+		"scroll-step": 1,
+		"format": "{volume}% {icon}",
+		"on-click": "pavucontrol",
+		},
+
+	"custom/media": {
+		"format": "{icon}{}",
+    		"return-type": "json",
+    		"format-icons": {
+        		"Playing": " ",
+        		"Paused": " ",
+    				},
+    		"max-length":70,
+    		"exec": "playerctl -a metadata --format '{\"text\": \"{{artist}} - {{markup_escape(title)}}\", \"tooltip\": \"{{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+    		"on-click": "playerctl play-pause",
+			},
+	
+	"wlr/workspaces": {
+		"format": "{icon}",
+		"format-icons": {
+			"1": "一",
+             		"2": "二",
+             		"3": "三",
+             		"4": "四",
+             		"5": "五"
+			},
+		"on-scroll-up": "hyprctl dispatch workspace e+1",
+		"on-scroll-down": "hyprctl dispatch workspace e-1",
+		"on-click": "activate",
+		"all-outputs": true
+			},
+
+	"tray": {
+		"icon-size": 20,
+		"spacing": 10
+		},
+	
+	"network": {
+		"interface": "wlp2s0",
+		"format-wifi": "{essid} "
+			},
+
+	"battery": {
+		"states": {
+			"warning": 30,
+			"critical": 15
+				},
+		"format": "{capacity}% {icon}",
+		"format-charging": "{capacity}% ",
+		"format-plugged": "{capacity}% "
+			}
+
+}

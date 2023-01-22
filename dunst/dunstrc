@@ -1,0 +1,20 @@
+[global]
+frame_color = "#c6a0f6"
+separator_color= frame
+offset = 25x25
+frame_width = 2
+font = 'Roboto Mono Regular' 8
+corner_radius = 10
+
+[urgency_low]
+background = "#24273A"
+foreground = "#CAD3F5"
+
+[urgency_normal]
+background = "#24273A"
+foreground = "#CAD3F5"
+
+[urgency_critical]
+background = "#24273A"
+foreground = "#CAD3F5"
+frame_color = "#F5A97F"

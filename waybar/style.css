@@ -1,0 +1,117 @@
+* {
+	font-family: "Overpass Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	border: none;
+	border-radius: 10px;
+		}
+
+window#waybar {
+	background-color: transparent;
+	border-bottom: 0px
+		}
+
+#workspaces button {
+	padding: 0 5px;
+	background: transparent;
+	color: #f4dbd6;
+	border-bottom: 0px solid transparent;
+		}
+
+/* Workspaces */
+
+#workspaces button:hover {
+	background: transparent;
+		}
+
+#workspaces button.active{
+	color: #f4dbd6;
+		}
+
+#workspaces button.urgent {
+	color: #ed8796;
+		}
+
+#workspaces {
+	margin-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #24273a;
+	border: 2px solid #c6a0f6;
+		}
+
+/* Other Modules */
+
+#clock {
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #24273a;
+	color: #f4dbd6;
+	border: 2px solid #c6a0f6;
+		}
+
+#pulseaudio {
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #24273a;
+	color: #f4dbd6;
+	border: 2px solid #c6a0f6;
+		}
+
+#custom-media {
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #24273a;
+	color: #f4dbd6;
+	border: 2px solid #c6a0f6;
+		}
+
+#tray {
+	margin-top: 5px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #24273a;
+	color: #f4dbd6;
+	border: 2px solid #c6a0f6;
+		}
+
+#network {
+	margin-top: 5px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #24273a;
+	color: #f4dbd6;
+	border: 2px solid #c6a0f6;
+		}
+
+#battery {
+	margin-top: 5px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #24273a;
+	color: #f4dbd6;
+	border: 2px solid #c6a0f6;
+		}
+

@@ -1,0 +1,9 @@
+[00:42:00 2023-01-12] FETCHING Version 2.16.0
+[00:42:00 2023-01-12] DOWNLOADING https://github.com/spicetify/spicetify-cli/releases/download/v2.16.0/spicetify-2.16.0-linux-amd64.tar.gz
+[00:42:01 2023-01-12] EXTRACTING /home/thomas/.spicetify/spicetify.tar.gz
+[00:42:01 2023-01-12] SETTING EXECUTABLE PERMISSIONS TO /home/thomas/.spicetify/spicetify
+[00:42:01 2023-01-12] REMOVING /home/thomas/.spicetify/spicetify.tar.gz
+[00:42:01 2023-01-12] APPENDING /home/thomas/.spicetify to PATH in /home/thomas/.config/fish/config.fish
+[00:42:01 2023-01-12] Restart your shell to have spicetify in your PATH.
+[00:42:01 2023-01-12] spicetify v2.16.0 was installed successfully to /home/thomas/.spicetify
+[00:42:01 2023-01-12] Run 'spicetify --help' to get started
